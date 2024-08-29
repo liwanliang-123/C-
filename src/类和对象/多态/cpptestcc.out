@@ -1,0 +1,1570 @@
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 668: error: name followed by "::" must be a class or
+          namespace name
+    rapidjson::Document document;
+    ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 668: error: expected a ";"
+    rapidjson::Document document;
+                        ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 669: error: identifier "document" is undefined
+    document.Parse(data.c_str(), data.length());
+    ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 674: error: identifier "rapidjson" is undefined
+    using MemberIter = rapidjson::Value::ConstMemberIterator;
+                       ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 674: error: expected a ";"
+    using MemberIter = rapidjson::Value::ConstMemberIterator;
+                                ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1065: error: class
+          "std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>" has no member "void_pointer"
+      typedef typename _Alloc::void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__void_pointer<_Ptr, _Alloc,
+                      <unnamed>> [with _Ptr=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>, <unnamed>=false]" at
+                      line 1519
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>]" at line 930 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1088: error: class
+          "std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>" has no member "const_void_pointer"
+      typedef typename _Alloc::const_void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__const_void_pointer<_Ptr,
+                      _Alloc, <unnamed>> [with
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>, <unnamed>=false]" at
+                      line 1520
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>]" at line 930 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 950: error: incomplete type is not allowed
+      typedef typename __pointer_traits_element_type<pointer>::type element_type;
+                       ^
+          detected during:
+            instantiation of class "std::__1::pointer_traits<_Ptr> [with
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *]" at line 1502
+            instantiation of class
+                      "std::__1::__alloc_traits_difference_type<_Alloc, _Ptr,
+                      <unnamed>> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>,
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *, <unnamed>=false]" at line 1522
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>]" at line 930 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1065: error: class
+          "std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>" has no member "void_pointer"
+      typedef typename _Alloc::void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__void_pointer<_Ptr, _Alloc,
+                      <unnamed>> [with _Ptr=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **,
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>, <unnamed>=false]" at
+                      line 1519
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>]" at line 939 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1088: error: class
+          "std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>" has no member "const_void_pointer"
+      typedef typename _Alloc::const_void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__const_void_pointer<_Ptr,
+                      _Alloc, <unnamed>> [with
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **,
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>, <unnamed>=false]" at
+                      line 1520
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>]" at line 939 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 950: error: incomplete type is not allowed
+      typedef typename __pointer_traits_element_type<pointer>::type element_type;
+                       ^
+          detected during:
+            instantiation of class "std::__1::pointer_traits<_Ptr> [with
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **]" at line 1502
+            instantiation of class
+                      "std::__1::__alloc_traits_difference_type<_Alloc, _Ptr,
+                      <unnamed>> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>,
+                      _Ptr=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **, <unnamed>=false]" at line 1522
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>]" at line 939 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1065: error: class
+          "std::__1::allocator<const std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>" has no member "void_pointer"
+      typedef typename _Alloc::void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__void_pointer<_Ptr, _Alloc,
+                      <unnamed>> [with _Ptr=const std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **,
+                      _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>, <unnamed>=false]" at line 1519
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>]" at line 941 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1088: error: class
+          "std::__1::allocator<const std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>" has no member
+          "const_void_pointer"
+      typedef typename _Alloc::const_void_pointer type;
+                               ^
+          detected during:
+            instantiation of class "std::__1::__const_void_pointer<_Ptr,
+                      _Alloc, <unnamed>> [with _Ptr=const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **, _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>, <unnamed>=false]" at line 1520
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>]" at line 941 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 950: error: incomplete type is not allowed
+      typedef typename __pointer_traits_element_type<pointer>::type element_type;
+                       ^
+          detected during:
+            instantiation of class "std::__1::pointer_traits<_Ptr> [with
+                      _Ptr=const std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **]" at line 1502
+            instantiation of class
+                      "std::__1::__alloc_traits_difference_type<_Alloc, _Ptr,
+                      <unnamed>> [with _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>, _Ptr=const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **, <unnamed>=false]" at line 1522
+            instantiation of class "std::__1::allocator_traits<_Alloc> [with
+                      _Alloc=std::__1::allocator<const
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *>]" at line 941 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/tuple", line 473: error: incomplete type is not allowed
+      _BaseT __base_;
+             ^
+          detected during:
+            instantiation of class "std::__1::tuple<_Tp...> [with
+                      _Tp=<<error-type>, <error-type>, std::__1::string>]" at
+                      line 268 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_block_size<_ValueType,
+                      _DiffType> [with _ValueType=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>, _DiffType=ptrdiff_t]" at
+                      line 278 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            processing of template argument list for
+                      "std::__1::__deque_iterator" based on template arguments
+                      <std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> &, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **, ptrdiff_t> at line
+                      945 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/tuple", line 867: error: class
+          "std::__1::is_copy_assignable<<error-type>>" has no member "value"
+      using _CanCopyAssign = __all<is_copy_assignable<_Tp>::value...>;
+                                                            ^
+          detected during:
+            instantiation of class "std::__1::tuple<_Tp...> [with
+                      _Tp=<<error-type>, <error-type>, std::__1::string>]" at
+                      line 268 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_block_size<_ValueType,
+                      _DiffType> [with _ValueType=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>, _DiffType=ptrdiff_t]" at
+                      line 278 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            processing of template argument list for
+                      "std::__1::__deque_iterator" based on template arguments
+                      <std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> &, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **, ptrdiff_t> at line
+                      945 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/tuple", line 867: error: class
+          "std::__1::is_copy_assignable<<error-type>>" has no member "value"
+      using _CanCopyAssign = __all<is_copy_assignable<_Tp>::value...>;
+                                                            ^
+          detected during:
+            instantiation of class "std::__1::tuple<_Tp...> [with
+                      _Tp=<<error-type>, <error-type>, std::__1::string>]" at
+                      line 268 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_block_size<_ValueType,
+                      _DiffType> [with _ValueType=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>, _DiffType=ptrdiff_t]" at
+                      line 278 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            processing of template argument list for
+                      "std::__1::__deque_iterator" based on template arguments
+                      <std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> &, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **, ptrdiff_t> at line
+                      945 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/tuple", line 868: error: class
+          "std::__1::is_move_assignable<<error-type>>" has no member "value"
+      using _CanMoveAssign = __all<is_move_assignable<_Tp>::value...>;
+                                                            ^
+          detected during:
+            instantiation of class "std::__1::tuple<_Tp...> [with
+                      _Tp=<<error-type>, <error-type>, std::__1::string>]" at
+                      line 268 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_block_size<_ValueType,
+                      _DiffType> [with _ValueType=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>, _DiffType=ptrdiff_t]" at
+                      line 278 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            processing of template argument list for
+                      "std::__1::__deque_iterator" based on template arguments
+                      <std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> &, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **, ptrdiff_t> at line
+                      945 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/tuple", line 868: error: class
+          "std::__1::is_move_assignable<<error-type>>" has no member "value"
+      using _CanMoveAssign = __all<is_move_assignable<_Tp>::value...>;
+                                                            ^
+          detected during:
+            instantiation of class "std::__1::tuple<_Tp...> [with
+                      _Tp=<<error-type>, <error-type>, std::__1::string>]" at
+                      line 268 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_block_size<_ValueType,
+                      _DiffType> [with _ValueType=std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>, _DiffType=ptrdiff_t]" at
+                      line 278 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            processing of template argument list for
+                      "std::__1::__deque_iterator" based on template arguments
+                      <std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *,
+                      std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> &, std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> **, ptrdiff_t> at line
+                      945 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::__deque_base<_Tp, _Allocator>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1188 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 1196: error: static assertion failed with
+          "Allocator::value_type must be same type as value_type"
+      static_assert((is_same<typename allocator_type::value_type, value_type>::value),
+      ^
+          detected during:
+            instantiation of class "std::__1::deque<_Tp, _Allocator> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of class "std::__1::stack<_Tp, _Container> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 115: error: static assertion failed with ""
+      static_assert((is_same<_Tp, value_type>::value), "" );
+      ^
+          detected during instantiation of class "std::__1::stack<_Tp,
+                    _Container> [with _Tp=std::__1::tuple<<error-type>,
+                    <error-type>, std::__1::string>,
+                    _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                    <error-type>, std::__1::string>,
+                    std::__1::allocator<std::__1::tuple<<error-type>,
+                    <error-type>, std::__1::string>>>]" at line 675 of
+                    "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/v
+                    mm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/type_traits", line 3737: error: incomplete type is not
+          allowed
+      : __libcpp_is_nothrow_constructible<is_constructible<_Tp, _Args...>::value, is_reference<_Tp>::value, _Tp, _Args...>
+        ^
+          detected during:
+            instantiation of class "std::__1::is_nothrow_constructible<_Tp,
+                      _Args...> [with
+                      _Tp=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>, _Args=<>]" at line
+                      3866
+            instantiation of class
+                      "std::__1::is_nothrow_default_constructible<_Tp> [with
+                      _Tp=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 123 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 123: error: class
+          "std::__1::is_nothrow_default_constructible<std::__1::deque<std::__1:
+          :tuple<<error-type>, <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>>" has no member "value"
+          noexcept(is_nothrow_default_constructible<container_type>::value)
+                                                                     ^
+          detected during instantiation of "std::__1::stack<_Tp,
+                    _Container>::stack() [with
+                    _Tp=std::__1::tuple<<error-type>, <error-type>,
+                    std::__1::string>,
+                    _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                    <error-type>, std::__1::string>,
+                    std::__1::allocator<std::__1::tuple<<error-type>,
+                    <error-type>, std::__1::string>>>]" at line 675 of
+                    "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/v
+                    mm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 676: error: no instance of overloaded function
+          "std::__1::stack<_Tp, _Container>::push [with
+          _Tp=std::__1::tuple<<error-type>, <error-type>, std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" matches the argument list
+            argument types are: ({...})
+            object type is: std::__1::stack<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>>
+    stack.push({document.MemberBegin(), document.MemberEnd(), kRootOptionName});
+          ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 197: note: function "std::__1::stack<_Tp,
+          _Container>::push(std::__1::stack<_Tp, _Container>::value_type &&)
+          [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" does not match because argument #1 does not
+          match parameter
+      void push(value_type&& __v) {c.push_back(std::__1::move(__v));}
+           ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 194: note: function "std::__1::stack<_Tp,
+          _Container>::push(const std::__1::stack<_Tp, _Container>::value_type
+          &) [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" does not match because argument #1 does not
+          match parameter
+      void push(const value_type& __v) {c.push_back(__v);}
+           ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk/vmm/nbl_vmm/guest_con
+          fig.cc", line 690: error: no instance of overloaded function
+          "std::__1::stack<_Tp, _Container>::push [with
+          _Tp=std::__1::tuple<<error-type>, <error-type>, std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" matches the argument list
+            argument types are: ({...})
+            object type is: std::__1::stack<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>>
+        stack.push({member.value.GetObject().MemberBegin(), member.value.GetObject().MemberEnd(),
+              ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 197: note: function "std::__1::stack<_Tp,
+          _Container>::push(std::__1::stack<_Tp, _Container>::value_type &&)
+          [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" does not match because argument #1 does not
+          match parameter
+      void push(value_type&& __v) {c.push_back(std::__1::move(__v));}
+           ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/stack", line 194: note: function "std::__1::stack<_Tp,
+          _Container>::push(const std::__1::stack<_Tp, _Container>::value_type
+          &) [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>,
+          _Container=std::__1::deque<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>>]" does not match because argument #1 does not
+          match parameter
+      void push(const value_type& __v) {c.push_back(__v);}
+           ^
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 296: error: no instance of
+          function template "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" matches the argument list
+            argument types are:
+                      (std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>, <error-type>)
+          __alloc_traits::destroy(__alloc(), __to_raw_pointer(--__end_));
+          ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1594: note: candidate function template
+          "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" failed deduction
+          static void destroy(allocator_type& __a, _Tp* __p)
+                      ^
+          detected during:
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::__destruct_at_end(std::__1::__split_buffer<_
+                      Tp, _Allocator>::pointer, std::__1::false_type) [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 141
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::__destruct_at_end(std::__1::__split_buffer<_
+                      Tp, _Allocator>::pointer) [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 88
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::clear() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 341
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::~__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1104 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::~__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1187 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 1168: error: no instance of function
+          template "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>>]" matches the argument list
+            argument types are:
+                      (std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>, <error-type>)
+          __alloc_traits::destroy(__a, std::__1::addressof(*__i));
+          ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1594: note: candidate function template
+          "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>>]" failed deduction
+          static void destroy(allocator_type& __a, _Tp* __p)
+                      ^
+          detected during:
+            instantiation of "void std::__1::__deque_base<_Tp,
+                      _Allocator>::clear() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1105
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::~__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1187
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/type_traits", line 2265: error: incomplete type is not
+          allowed
+      : public __destructible_false<_Tp, std::__1::is_function<_Tp>::value> {};
+               ^
+          detected during:
+            instantiation of class "std::__1::is_destructible<_Tp> [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *]" at line 3675
+            instantiation of class "std::__1::is_trivially_destructible<_Tp>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *]" at line 133 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::__destruct_at_begin(std::__1::__split_buffer
+                      <_Tp, _Allocator>::pointer) [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::pop_front() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1173 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "void std::__1::__deque_base<_Tp,
+                      _Allocator>::clear() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1105 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::~__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1187 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/type_traits", line 3675: error: class
+          "std::__1::is_destructible<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>" has no member "value"
+      : public integral_constant<bool, is_destructible<_Tp>::value && __has_trivial_destructor(_Tp)> {};
+                                                             ^
+          detected during:
+            instantiation of class "std::__1::is_trivially_destructible<_Tp>
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *]" at line 133 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::__destruct_at_begin(std::__1::__split_buffer
+                      <_Tp, _Allocator>::pointer) [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 111 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::pop_front() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1173 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "void std::__1::__deque_base<_Tp,
+                      _Allocator>::clear() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1105 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::~__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1187 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 133: error: no instance of
+          overloaded function "std::__1::__split_buffer<_Tp,
+          _Allocator>::__destruct_at_begin [with
+          _Tp=std::__1::tuple<<error-type>, <error-type>, std::__1::string> *,
+          _Allocator=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" matches the argument list
+            argument types are: (std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> **,
+                      std::__1::is_trivially_destructible<std::__1::tuple<<erro
+                      r-type>, <error-type>, std::__1::string> *>)
+          {__destruct_at_begin(__new_begin, is_trivially_destructible<value_type>());}
+           ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 137: note: function
+          "std::__1::__split_buffer<_Tp,
+          _Allocator>::__destruct_at_begin(std::__1::__split_buffer<_Tp,
+          _Allocator>::pointer, std::__1::true_type) [with
+          _Tp=std::__1::tuple<<error-type>, <error-type>, std::__1::string> *,
+          _Allocator=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" does not match because argument
+          #2 does not match parameter
+          void __destruct_at_begin(pointer __new_begin, true_type);
+               ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 135: note: function
+          "std::__1::__split_buffer<_Tp,
+          _Allocator>::__destruct_at_begin(std::__1::__split_buffer<_Tp,
+          _Allocator>::pointer, std::__1::false_type) [with
+          _Tp=std::__1::tuple<<error-type>, <error-type>, std::__1::string> *,
+          _Allocator=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" does not match because argument
+          #2 does not match parameter
+          void __destruct_at_begin(pointer __new_begin, false_type);
+               ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 132: note: number of parameters of
+          function "std::__1::__split_buffer<_Tp,
+          _Allocator>::__destruct_at_begin(std::__1::__split_buffer<_Tp,
+          _Allocator>::pointer) [with _Tp=std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *,
+          _Allocator=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> *>]" does not match the call
+      __attribute__ ((__visibility__("hidden"), __always_inline__)) void __destruct_at_begin(pointer __new_begin)
+                                                                         ^
+          detected during:
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::__destruct_at_begin(std::__1::__split_buffer
+                      <_Tp, _Allocator>::pointer) [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 111
+            instantiation of "void std::__1::__split_buffer<_Tp,
+                      _Allocator>::pop_front() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1173 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "void std::__1::__deque_base<_Tp,
+                      _Allocator>::clear() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1105 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::~__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1187 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/type_traits", line 3737: error: incomplete type is not
+          allowed
+      : __libcpp_is_nothrow_constructible<is_constructible<_Tp, _Args...>::value, is_reference<_Tp>::value, _Tp, _Args...>
+        ^
+          detected during:
+            instantiation of class "std::__1::is_nothrow_constructible<_Tp,
+                      _Args...> [with
+                      _Tp=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>, _Args=<>]" at line 3866
+            instantiation of class
+                      "std::__1::is_nothrow_default_constructible<_Tp> [with
+                      _Tp=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>]" at line 1217 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 1217: error: class
+          "std::__1::is_nothrow_default_constructible<std::__1::allocator<std::
+          __1::tuple<<error-type>, <error-type>, std::__1::string>>>" has no
+          member "value"
+          noexcept(is_nothrow_default_constructible<allocator_type>::value)
+                                                                     ^
+          detected during:
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 967: error: class
+          "std::__1::is_nothrow_default_constructible<std::__1::allocator<std::
+          __1::tuple<<error-type>, <error-type>, std::__1::string>>>" has no
+          member "value"
+          noexcept(is_nothrow_default_constructible<allocator_type>::value);
+                                                                     ^
+          detected during:
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1095
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 1095: error: no instance of constructor
+          "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair [with
+          _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" matches the argument list
+            argument types are: (int)
+      : __start_(0), __size_(0) {}
+                            ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2205: note: function
+          "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair(const
+          std::__1::__compressed_pair<unsigned long,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>> &) [with _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match because argument #1 does not
+          match parameter
+  class __compressed_pair : private __compressed_pair_elem<_T1, 0>,
+        ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2205: note: function
+          "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::__compressed_pair<unsigned long,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>> &&) [with _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match because argument #1 does not
+          match parameter
+  class __compressed_pair : private __compressed_pair_elem<_T1, 0>,
+        ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2249: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::piecewise_construct_t,
+          std::__1::tuple<_Args1...>, std::__1::tuple<_Args2...>) [with
+          _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match the call
+    __compressed_pair(piecewise_construct_t __pc, tuple<_Args1...> __first_args,
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2244: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(_U1 &&, _U2 &&) [with _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match the call
+    __compressed_pair(_U1&& __t1, _U2&& __t2)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2239: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::__second_tag, _Tp &&) [with
+          _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match the call
+    __compressed_pair(__second_tag, _Tp&& __t)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2234: note: candidate function template
+          "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair(_Tp &&)
+          [with _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" failed deduction
+    __compressed_pair(_Tp&& __t)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2228: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair() [with _T1=unsigned long,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string>>]" does not match the call
+    constexpr __compressed_pair() {}
+              ^
+          detected during:
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/type_traits", line 3737: error: incomplete type is not
+          allowed
+      : __libcpp_is_nothrow_constructible<is_constructible<_Tp, _Args...>::value, is_reference<_Tp>::value, _Tp, _Args...>
+        ^
+          detected during:
+            instantiation of class "std::__1::is_nothrow_constructible<_Tp,
+                      _Args...> [with
+                      _Tp=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>, _Args=<>]" at line
+                      3866
+            instantiation of class
+                      "std::__1::is_nothrow_default_constructible<_Tp> [with
+                      _Tp=std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string> *>]" at line 63 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 320 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/__split_buffer"
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1095 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 63: error: class
+          "std::__1::is_nothrow_default_constructible<std::__1::allocator<std::
+          __1::tuple<<error-type>, <error-type>, std::__1::string> *>>" has no
+          member "value"
+          noexcept(is_nothrow_default_constructible<allocator_type>::value);
+                                                                     ^
+          detected during:
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 320
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1095 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/__split_buffer", line 320: error: no instance of
+          constructor "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair
+          [with _T1=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" matches the argument list
+            argument types are: (std::nullptr_t)
+      : __first_(nullptr), __begin_(nullptr), __end_(nullptr), __end_cap_(nullptr)
+                                                                         ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2205: note: function
+          "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair(const
+          std::__1::__compressed_pair<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> **,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>> &) [with _T1=std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match because argument #1 does not
+          match parameter
+  class __compressed_pair : private __compressed_pair_elem<_T1, 0>,
+        ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2205: note: function
+          "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::__compressed_pair<std::__1::tuple<<
+          error-type>, <error-type>, std::__1::string> **,
+          std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>> &&) [with _T1=std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match because argument #1 does not
+          match parameter
+  class __compressed_pair : private __compressed_pair_elem<_T1, 0>,
+        ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2249: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::piecewise_construct_t,
+          std::__1::tuple<_Args1...>, std::__1::tuple<_Args2...>) [with
+          _T1=std::__1::tuple<<error-type>, <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match the call
+    __compressed_pair(piecewise_construct_t __pc, tuple<_Args1...> __first_args,
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2244: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(_U1 &&, _U2 &&) [with
+          _T1=std::__1::tuple<<error-type>, <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match the call
+    __compressed_pair(_U1&& __t1, _U2&& __t2)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2239: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair(std::__1::__second_tag, _Tp &&) [with
+          _T1=std::__1::tuple<<error-type>, <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match the call
+    __compressed_pair(__second_tag, _Tp&& __t)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2234: note: candidate function template
+          "std::__1::__compressed_pair<_T1, _T2>::__compressed_pair(_Tp &&)
+          [with _T1=std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" failed deduction
+    __compressed_pair(_Tp&& __t)
+    ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 2228: note: number of parameters of
+          function template "std::__1::__compressed_pair<_T1,
+          _T2>::__compressed_pair() [with _T1=std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string> **,
+          _T2=std::__1::allocator<std::__1::tuple<<error-type>, <error-type>,
+          std::__1::string> *>]" does not match the call
+    constexpr __compressed_pair() {}
+              ^
+          detected during:
+            instantiation of "std::__1::__split_buffer<_Tp,
+                      _Allocator>::__split_buffer() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string> *,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string> *>]" at line 1095 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::__deque_base<_Tp,
+                      _Allocator>::__deque_base() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 1218 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/deque"
+            instantiation of "std::__1::deque<_Tp, _Allocator>::deque() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 124 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "std::__1::stack<_Tp, _Container>::stack() [with
+                      _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 675 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/deque", line 2585: error: no instance of function
+          template "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>>]" matches the argument list
+            argument types are:
+                      (std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>, <error-type>)
+      __alloc_traits::destroy(__a, __to_raw_pointer(*(__base::__map_.begin() +
+      ^
+"/home/lwl/Project/docker_env-8678/user_home/grt/nebula-sdk/toolchains/clang/in
+          clude/c++/v1/memory", line 1594: note: candidate function template
+          "std::__1::allocator_traits<_Alloc>::destroy [with
+          _Alloc=std::__1::allocator<std::__1::tuple<<error-type>,
+          <error-type>, std::__1::string>>]" failed deduction
+          static void destroy(allocator_type& __a, _Tp* __p)
+                      ^
+          detected during:
+            instantiation of "void std::__1::deque<_Tp, _Allocator>::pop_back()
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Allocator=std::__1::allocator<std::__1::tuple<<error-typ
+                      e>, <error-type>, std::__1::string>>]" at line 211 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/nebula-s
+                      dk/toolchains/clang/include/c++/v1/stack"
+            instantiation of "void std::__1::stack<_Tp, _Container>::pop()
+                      [with _Tp=std::__1::tuple<<error-type>, <error-type>,
+                      std::__1::string>,
+                      _Container=std::__1::deque<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>,
+                      std::__1::allocator<std::__1::tuple<<error-type>,
+                      <error-type>, std::__1::string>>>]" at line 683 of
+                      "/home/lwl/Project/docker_env-8678/user_home/grt/thyp-sdk
+                      /vmm/nbl_vmm/guest_config.cc"
+
+An error has occurred while running the rule 'INTERNAL-GLOBAL-ONEUSEVAR_1'.
+The analysis has been terminated and the results may be incomplete.
+Traceback (most recent call last):
+  File "<string>", line 5, in addUseToDictInTemplate
+IndexError: string index out of range
